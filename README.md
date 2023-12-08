@@ -26,5 +26,12 @@ Note that you can also fine tune programmatically by sending the fine tuning dat
 ## Use your fine tuned model.
 Go to the [OpenAI Playground](https://platform.openai.com/playground?mode=chat). On the right-hand side, there is a drop-down menu to choose a model. You will see your fine tuned model listed. Simply click it, and prompt away!
 
+## Example.
+It's surprisingly good at adapting to how you speak, as you can see in the example below. I fine tuned it on 500 of my own tweets.
+
+![](example.png)
+
+To be clear, kiwis are far from my favorite fruit. However, I am impressed with how it picked up slang like "og" and "mf legend".
+
 ## Other forms of data.
 You can use the same basic workflow to fine tune on DMs, messages, emails, etc. Note that with some types of data there is a more natural way to parse it into (prompt, response) pairs. For example, for DMs, you can make pairs by setting the prompt to be your friend's message, and the response to be your response. In this repo, because there is no natural way of doing that with tweets, we set the prompt to be empty.
