@@ -29,7 +29,7 @@ Go to the [OpenAI Playground](https://platform.openai.com/playground?mode=chat).
 ## Example.
 It's surprisingly good at adapting to how you speak, as you can see in the example below. I fine tuned it on 500 of my own tweets.
 
-![](example.png)
+<img src="example.png" width="200">
 
 To be clear, kiwis are far from my favorite fruit. However, I am impressed with how it picked up slang like "og" and "mf legend".
 
