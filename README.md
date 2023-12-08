@@ -19,7 +19,7 @@ Because of the _chat_ role that the new OpenAI models play, fine tuning data has
 In order to parse your tweets into this format, you can run the code in `tweetparser.py`. Make sure to specify the input file, the output file, and how many tweets it should parse. Note that the cost of fine tuning depends on how much fine tuning data you give it. It will output it into a JSON Lines file (`.jsonl`) which is what OpenAI expects.
 
 ## Fine tune.
-Once you have the prepared `.jsonl` file, go to (https://platform.openai.com/finetune). Click the Create button, and upload the `.jsonl` file. It will create a fine tuning job. How long this takes depends on how large your fine tuning dataset is. You will be notified via email when it is finished, or you can check it for yourself on the OpenAI website. 
+Once you have the prepared `.jsonl` file, go to [OpenAI Fine-tuning](https://platform.openai.com/finetune). Click the Create button, and upload the `.jsonl` file. It will create a fine tuning job. How long this takes depends on how large your fine tuning dataset is. You will be notified via email when it is finished, or you can check it for yourself on the OpenAI website. 
 
 Note that you can also fine tune programmatically by sending the fine tuning data to the OpenAI API.
 
